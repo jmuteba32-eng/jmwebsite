@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impact · Jonathan Muteba</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html">Jonathan Muteba</a>
+  <ul class="nav-links" id="navLinks"><li><a href="index.html" class="">Home</a></li><li><a href="story.html" class="">Story</a></li><li><a href="credentials.html" class="">Credentials</a></li><li><a href="impact.html" class="active">Impact</a></li><li><a href="brand.html" class="">Personal Brand</a></li></ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="impact-hero">
+    <div class="impact-hero-inner">
+      <div class="eyebrow">Impact</div>
+      <h1>Life's Work &<br>Community</h1>
+      <p>What Jonathan builds, who he mentors, how he shows up — in the boardroom, the ring, and the neighborhood.</p>
+    </div>
+  </div>
+
+  <!-- LIFE'S WORK -->
+  <div class="chapter-hdr">
+    <div class="chapter-hdr-inner">
+      <div class="ch-num">01</div>
+      <div><h2>Life's Work</h2><p>The companies Jonathan founded — and what drives them.</p></div>
+    </div>
+  </div>
+
+  <div class="companies">
+    <div class="co-card">
+      <div class="co-logo">Brilla LS<br>Logo</div>
+      <h3>Brilla Life Sciences</h3>
+      <div class="co-role">Founder & Compliance and Operations Consultant</div>
+      <p>A life sciences consulting firm delivering technical expertise across process development, quality systems, compliance, and regulatory strategy. Jonathan helps biotech and pharma companies move faster — without cutting corners.</p>
+      <a href="https://brillalifesciences.com" target="_blank" class="btn btn-outline" style="margin-top:auto;">brillalifesciences.com →</a>
+    </div>
+    <div class="co-card">
+      <div class="co-logo">Brillaverse<br>Logo</div>
+      <h3>Brillaverse</h3>
+      <div class="co-role">Founder & President</div>
+      <p>A workforce development platform building pathways for underrepresented professionals entering high-growth industries. Brillaverse turns potential into placement. Website coming soon.</p>
+      <a href="https://brillaverse.com" target="_blank" class="btn btn-outline" style="margin-top:auto;">brillaverse.com →</a>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <!-- COMMUNITY -->
+  <div class="chapter-hdr">
+    <div class="chapter-hdr-inner">
+      <div class="ch-num">02</div>
+      <div><h2>Community</h2><p>Mentorship, service, and showing up — in Revere and beyond.</p></div>
+    </div>
+  </div>
+
+  <!-- REVERE -->
+  <div class="community-item">
+    <div class="comm-meta">Hometown · Revere, MA</div>
+    <h3>Roots in Revere</h3>
+    <p>Jonathan grew up in Revere — one of the most diverse cities in Massachusetts. He remains an active presence in the community that raised him.</p>
+    <div class="gallery-section">
+      <div class="gallery-lead" onclick="openGallery(galleries.revere.title, galleries.revere.images)">
+        <div class="ph"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Upload lead photo — Roots in Revere</div>
+        <div class="gallery-lead-overlay">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          View Gallery
+        </div>
+      </div>
+      <span class="gallery-count">↗ Click to view full gallery · 5 photos</span>
+    </div>
+  </div>
+
+  <!-- BBBS -->
+  <div class="community-item">
+    <div class="comm-meta">Mentorship · 3+ Years</div>
+    <h3>Big Brothers Big Sisters<br>of Eastern Massachusetts</h3>
+    <p>Jonathan has been an active Big Brother for over three years. Growing up in Revere with a Congolese heritage, he understands what it means to navigate systems not built for you — and shows up for his mentee every week.</p>
+    <div class="gallery-section">
+      <div class="gallery-lead" onclick="openGallery(galleries.bbbs.title, galleries.bbbs.images)">
+        <div class="ph"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Upload lead photo — BBBS</div>
+        <div class="gallery-lead-overlay">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          View Gallery
+        </div>
+      </div>
+      <span class="gallery-count">↗ Click to view full gallery · 3 photos</span>
+    </div>
+    <div class="article-list">
+      <a href="#">📄 Featured Article 1 — add URL</a>
+      <a href="#">📄 Featured Article 2 — add URL</a>
+    </div>
+  </div>
+
+  <!-- HAYMAKERS -->
+  <div class="community-item">
+    <div class="comm-meta">Charity Boxing · Haymakers for Hope</div>
+    <h3>Haymakers for Hope</h3>
+    <p>Jonathan stepped into the ring with Haymakers for Hope — raising funds for cancer research and patient care. Every round fought was for something bigger than himself.</p>
+    <div class="video-ph">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M10 8l5 3-5 3z" fill="currentColor" stroke="none"/><path d="M8 21h8M12 17v4"/></svg>
+      Embed fight video here<br><span style="font-size:0.55rem;opacity:0.5;">Replace with YouTube / Vimeo iframe</span>
+    </div>
+    <div class="gallery-section" style="margin-top:1.5rem;">
+      <div class="gallery-lead" onclick="openGallery(galleries.haymakers.title, galleries.haymakers.images)">
+        <div class="ph"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Upload lead photo — Haymakers for Hope</div>
+        <div class="gallery-lead-overlay">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          View Gallery
+        </div>
+      </div>
+      <span class="gallery-count">↗ Click to view full gallery · 4 photos</span>
+    </div>
+  </div>
+
+  <!-- RODMAN FOR KIDS -->
+  <div class="community-item">
+    <div class="comm-meta">Charity Cycling · 36th Annual</div>
+    <h3>Rodman for Kids</h3>
+    <p>Jonathan rode in the 36th Annual Rodman for Kids — a bikeathon supporting pediatric cancer research and care. Every mile matters.</p>
+    <div class="gallery-section">
+      <div class="gallery-lead" onclick="openGallery(galleries.rodman.title, galleries.rodman.images)">
+        <div class="ph"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Upload lead photo — Rodman for Kids</div>
+        <div class="gallery-lead-overlay">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          View Gallery
+        </div>
+      </div>
+      <span class="gallery-count">↗ Click to view full gallery · 4 photos</span>
+    </div>
+  </div>
+
+<footer>
+  <div class="footer-copy">© 2026 Jonathan Muteba · All rights reserved</div>
+</footer>
+<!-- LIGHTBOX MODAL -->
+<div class="lb-modal" id="lbModal">
+  <button class="lb-close" onclick="closeLB()">×</button>
+  <div class="lb-title" id="lbTitle"></div>
+  <div class="lb-img-wrap" id="lbImgWrap"></div>
+  <div class="lb-nav">
+    <button class="lb-btn" onclick="lbPrev()">← Prev</button>
+    <span class="lb-counter" id="lbCounter"></span>
+    <button class="lb-btn" onclick="lbNext()">Next →</button>
+  </div>
+  <div class="lb-thumbs" id="lbThumbs"></div>
+</div>
+<script src="shared.js"></script>
+<script>initPage();</script>
+</body>
+</html>

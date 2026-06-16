@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Story · Jonathan Muteba</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html">Jonathan Muteba</a>
+  <ul class="nav-links" id="navLinks"><li><a href="index.html" class="">Home</a></li><li><a href="story.html" class="active">Story</a></li><li><a href="credentials.html" class="">Credentials</a></li><li><a href="impact.html" class="">Impact</a></li><li><a href="brand.html" class="">Personal Brand</a></li></ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="story-hero-section">
+    <div class="eyebrow">His Story</div>
+    <h1>From the Congo<br>to the World</h1>
+    <p class="lead">A Congolese immigrant, a Revere kid, an engineer, a founder — and a man still becoming.</p>
+  </div>
+
+  <div class="story-body">
+    <div class="chapter">
+      <div class="ch-label">Origins</div>
+      <div class="ch-line"></div>
+      <div class="ch-content">
+        <h2>A Heritage Rooted in the Congo</h2>
+        <p>Jonathan Muteba was born in the Democratic Republic of Congo — a country of immense cultural richness, deep resilience, and a people defined by their capacity to endure and create.</p>
+        <p>Coming to Boston at a very early age, he planted roots in the Revere community — a city known for its diversity, its blue-collar grit, and its sense of belonging for those who arrive from somewhere else.</p>
+        <div class="story-ph"><div class="ph"><svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Early life photo</div><div class="ch-caption">Jonathan's early years</div></div>
+        <div class="revere-grid">
+          <div class="ph">Revere 1</div>
+          <div class="ph">Revere 2</div>
+          <div class="ph">Revere 3</div>
+          <div class="ph">Revere 4</div>
+          <div class="ph">Revere 5</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter">
+      <div class="ch-label">The Calling</div>
+      <div class="ch-line"></div>
+      <div class="ch-content">
+        <h2>Math, Chemistry, Sports — and a Desire to Help</h2>
+        <p>Growing up, Jonathan discovered three things he loved: math, chemistry, and sports. More than anything, he loved helping people. These converged into chemical engineering — not because it was expected, but because it made sense of everything he already was.</p>
+      </div>
+    </div>
+
+    <div class="chapter">
+      <div class="ch-label">Education</div>
+      <div class="ch-line"></div>
+      <div class="ch-content">
+        <h2>Building the Foundation</h2>
+        <p>Jonathan earned his BS in Chemical Engineering from UMass Lowell, then his MS from Northeastern University with the Gordon Institute Engineering Leadership Certificate. InnerCity Capital Connections, Cambridge CIC Early Stage Cohort, and the Gauntlet AI Program expanded his reach beyond the classroom.</p>
+        <br><button class="btn btn-outline" onclick="showPage('credentials',null)">View full credentials →</button>
+      </div>
+    </div>
+
+    <div class="chapter">
+      <div class="ch-label">The Build</div>
+      <div class="ch-line"></div>
+      <div class="ch-content">
+        <h2>Entrepreneurship, AI, and What Comes Next</h2>
+        <p>Jonathan founded Brilla Life Sciences and Brillaverse, then turned his attention to artificial intelligence through the Gauntlet AI Program. He is not waiting for the future. He is building it.</p>
+        <div class="story-ph"><div class="ph"><svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Professional photo</div><div class="ch-caption">Jonathan today</div></div>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+          <button class="btn btn-filled" onclick="showPage('impact',null)">See his impact →</button>
+          <button class="btn btn-outline" onclick="showPage('credentials',null)">View credentials →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer>
+  <div class="footer-copy">© 2026 Jonathan Muteba · All rights reserved</div>
+</footer>
+<script src="shared.js"></script>
+<script>initPage();</script>
+</body>
+</html>
